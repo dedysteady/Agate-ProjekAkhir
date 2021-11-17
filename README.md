@@ -1,1 +1,1 @@
-# Culinary Emeral Equator
+# Culinary Emerald Equator
