@@ -8,6 +8,7 @@ public class TileScript : MonoBehaviour
     private Vector3 correctPosition;
     private SpriteRenderer _sprite;
     public int number;
+    public bool inRightPlace;
     // Start is called before the first frame update
     void Awake()
     {
@@ -23,10 +24,12 @@ public class TileScript : MonoBehaviour
         if (targetPosition == correctPosition)
         {
             _sprite.color = Color.white;
+            inRightPlace = true;
         }
         else
         {
             _sprite.color = Color.white;
+            inRightPlace = false;
         }
     }
 }
