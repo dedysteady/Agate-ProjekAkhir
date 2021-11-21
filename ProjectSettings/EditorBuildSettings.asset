@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Jigsaw.unity
     guid: 06fde238eeb018448ab1f96cd2fe6874
   - enabled: 1
-    path: Assets/Scenes/Sliding.unity
+    path: Assets/Scenes/Sliding (1).unity
     guid: a504b5b8d5919c5419fb44551713a6c4
+  - enabled: 1
+    path: Assets/Scenes/Sliding (2).unity
+    guid: 9d7d083e869f87344abb0d842bc8acb6
   m_configObjects: {}

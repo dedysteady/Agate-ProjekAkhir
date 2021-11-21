@@ -1,5 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameScript : MonoBehaviour
 {
@@ -9,6 +12,7 @@ public class GameScript : MonoBehaviour
     [SerializeField] private TileScript[] tiles;
     private bool _isFinished;
     [SerializeField] private GameObject endPanel;
+    [SerializeField] private Text endPanelTimeText;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +61,9 @@ public class GameScript : MonoBehaviour
             {
                 _isFinished = true;
                 endPanel.SetActive(true);
+                    var a = GetComponent<TimeScript>();
+                a.StopTimer();
+                endPanelTimeText.text = (a.minutes < 10?"0":"") + a.minutes + ":" + (a.seconds < 10?"0":"") + a.seconds;
             }
         }
 
