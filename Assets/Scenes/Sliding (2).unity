@@ -627,7 +627,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Sliding (2)
+          m_StringArgument: Sliding (3)
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1307,6 +1307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bg_Timer
       objectReference: {fileID: 0}
+    - target: {fileID: 1903143551861074034, guid: 84d2918de0cdbd548bd82065e3a46529,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1903143552857729002, guid: 84d2918de0cdbd548bd82065e3a46529,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1411,11 +1416,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1903143551861074034, guid: 84d2918de0cdbd548bd82065e3a46529,
-        type: 3}
-      propertyPath: m_FontData.m_FontStyle
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84d2918de0cdbd548bd82065e3a46529, type: 3}
@@ -1644,15 +1644,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 519420030}
-        m_MethodName: PlayAgain
-        m_Mode: 1
+      - m_Target: {fileID: 316482487}
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Sliding
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2848,7 +2848,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 717}
+  m_AnchoredPosition: {x: 0, y: 680}
   m_SizeDelta: {x: 1000, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1656813831
@@ -2884,7 +2884,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CIREBON
+  m_Text: BATAGOR
 --- !u!222 &1656813832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3379,7 +3379,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022567545}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.738, y: -2.972, z: 0}
+  m_LocalPosition: {x: 1.735, y: -2.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 206117262}

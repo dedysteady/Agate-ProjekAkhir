@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameScript : MonoBehaviour
+public class GameScript3 : MonoBehaviour
 {
     [SerializeField] private Transform emptySpace = null;
     private Camera _camera;
-    private int emptySpaceIndex = 8;
+    private int emptySpaceIndex = 24;
     [SerializeField] private TileScript[] tiles;
     private bool _isFinished;
     [SerializeField] private GameObject endPanel;
@@ -29,7 +29,7 @@ public class GameScript : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             if (hit)
             {
-                if (Vector2.Distance(emptySpace.position, hit.transform.position) < 1.5)
+                if (Vector2.Distance(emptySpace.position, hit.transform.position) < 1)
                 {
                     Vector2 lastEmptySpacePosition = emptySpace.position;
                     TileScript thisTile = hit.transform.GetComponent<TileScript>();
@@ -79,10 +79,10 @@ public class GameScript : MonoBehaviour
         int invertion;
         do 
         {
-            for (int i=0; i<=7; i++)
+            for (int i=0; i<=22; i++)
             {
                 var lastPos = tiles[i].targetPosition;
-                int randomIndex = Random.Range(0, 7);
+                int randomIndex = Random.Range(0, 22);
                 tiles[i].targetPosition = tiles[randomIndex].targetPosition;
                 tiles[randomIndex].targetPosition = lastPos;
                 var tile = tiles[i];

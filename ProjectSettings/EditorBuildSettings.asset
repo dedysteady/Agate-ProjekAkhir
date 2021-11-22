@@ -17,7 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sliding (1).unity
     guid: a504b5b8d5919c5419fb44551713a6c4
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Sliding (2).unity
-    guid: 9d7d083e869f87344abb0d842bc8acb6
+    guid: d4e8f289b5509124c9d769114e1b561d
+  - enabled: 1
+    path: Assets/Scenes/Sliding (3).unity
+    guid: 4b8f87d62b1c37d4b983907b7c03a9e2
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 2a01664fcc22dd547867bab128ffe0d4
+  - enabled: 1
+    path: Assets/Scenes/Menu Level.unity
+    guid: 1a7d6a08a8a502c458ac2e9f7bf92099
+  - enabled: 1
+    path: Assets/Scenes/Sliding (4).unity
+    guid: 947e54f454c3692428e50bc7da5179c6
   m_configObjects: {}
