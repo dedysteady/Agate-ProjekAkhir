@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: f8bcc2c79675f25419d86e75000e6ad2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: nasi tumpeng_0
+  - first:
+      213: 21300002
+    second: nasi tumpeng_1
+  - first:
+      213: 21300004
+    second: nasi tumpeng_2
+  - first:
+      213: 21300006
+    second: nasi tumpeng_3
+  - first:
+      213: 21300008
+    second: nasi tumpeng_4
+  - first:
+      213: 21300010
+    second: nasi tumpeng_5
+  - first:
+      213: 21300012
+    second: nasi tumpeng_6
+  - first:
+      213: 21300014
+    second: nasi tumpeng_7
+  - first:
+      213: 21300016
+    second: nasi tumpeng_8
+  - first:
+      213: 21300018
+    second: nasi tumpeng_9
+  - first:
+      213: 21300020
+    second: nasi tumpeng_10
+  - first:
+      213: 21300022
+    second: nasi tumpeng_11
+  - first:
+      213: 21300024
+    second: nasi tumpeng_12
+  - first:
+      213: 21300026
+    second: nasi tumpeng_13
+  - first:
+      213: 21300028
+    second: nasi tumpeng_14
+  - first:
+      213: 21300030
+    second: nasi tumpeng_15
+  - first:
+      213: 21300032
+    second: nasi tumpeng_16
+  - first:
+      213: 21300034
+    second: nasi tumpeng_17
+  - first:
+      213: 21300036
+    second: nasi tumpeng_18
+  - first:
+      213: 21300038
+    second: nasi tumpeng_19
+  - first:
+      213: 21300040
+    second: nasi tumpeng_20
+  - first:
+      213: 21300042
+    second: nasi tumpeng_21
+  - first:
+      213: 21300044
+    second: nasi tumpeng_22
+  - first:
+      213: 21300046
+    second: nasi tumpeng_23
+  - first:
+      213: 21300048
+    second: nasi tumpeng_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nasi tumpeng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5313b4f5001a440852df287c2ee4fe
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 395.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11adff2b74c964b4e940c8de80f79537
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 395.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e4071c5c3ef6f4d97c17fa28e11067
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 395.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2576be37a9734395f780e21b02fcc
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 395.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6585754f2d2f84fadd38a9f3ae6640
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc8d321cc6c5d640ba818847d99e43e
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 297.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cea21845ae88c54ea4eed2c213a6ead
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 297.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7fbafea4b3964481fafccaf3e66de
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 297.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6301cd14e61718d428781d9dbd1d3cc3
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 297.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a3363f006bda4f8a547f7aa767c86
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3822ceabe3aa3db46bcc9a7c74543b7c
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 199.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed667b037199f47a3c8280da8247bb
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 199.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71be26d5c74cb6a499eb679ff2a77b78
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 199.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9a3a62be11d3c4e8dd9cb56dae2872
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 199.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4841b02b1ff4984e8f85c98cc92e320
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e977584cf72764d91afb893a0472e6
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 101.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d11b036f5790f499ab0088c4f9a3a8
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 101.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da8a706e69ac82428546cb0f1871b94
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_18
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 101.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8ea54fcf55e554f90dcc3cc0025d8a
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 101.2
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae075e4ced935043a54519468e7acd1
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8eb33418fba5c4396584d60043bb89
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3.199997
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89b2eecb9d2e684bb157ee7961b1349
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3.199997
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85405e45654e6242bb46b5b5e128267
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3.199997
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959f72b386538bd4d864c17ecf4aafda
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nasi tumpeng_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3.199997
+        width: 140
+        height: 98.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bfc54117cbd2640b861149f0c5fe74
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a6aed7891b676b7459e4ae9ad7b5f519
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

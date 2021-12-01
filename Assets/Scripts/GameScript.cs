@@ -12,6 +12,8 @@ public class GameScript : MonoBehaviour
     [SerializeField] private TileScript[] tiles;
     private bool _isFinished;
     [SerializeField] private GameObject endPanel;
+    [SerializeField] private GameObject starHolder;
+    [SerializeField] private GameObject puzzle;
     [SerializeField] private Text endPanelTimeText;
     // Start is called before the first frame update
     void Start()
@@ -61,12 +63,12 @@ public class GameScript : MonoBehaviour
             {
                 _isFinished = true;
                 endPanel.SetActive(true);
+                puzzle.SetActive(false);
                     var a = GetComponent<TimeScript>();
                 a.StopTimer();
                 endPanelTimeText.text = (a.minutes < 10?"0":"") + a.minutes + ":" + (a.seconds < 10?"0":"") + a.seconds;
             }
         }
-
     }
 
     public void PlayAgain()
