@@ -712,6 +712,7 @@ MonoBehaviour:
   - {fileID: 0}
   endPanel: {fileID: 368494681}
   starHolder: {fileID: 665873829}
+  puzzle: {fileID: 0}
   endPanelTimeText: {fileID: 837362125}
 --- !u!20 &519420031
 Camera:
@@ -1081,7 +1082,7 @@ PrefabInstance:
     - target: {fileID: 2795300770398538463, guid: 1da34869db7385d4998eb78733e944de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Sliding (3)
+      value: Level Select
       objectReference: {fileID: 0}
     - target: {fileID: 2795300771103322779, guid: 1da34869db7385d4998eb78733e944de,
         type: 3}

@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Select.unity
     guid: 4c2ecc9c90138bc43b129aace4d31c2f
+  - enabled: 1
+    path: Assets/Scenes/Level Select 2.unity
+    guid: c72f8adab35bbb94fafd635963154a1c
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -27,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2.unity
     guid: 34348aadfd2e3f341b977ddd53cab8c4
   - enabled: 0
-    path: Assets/Scenes/Level Select 2.unity
+    path: Assets/__DELETED_GUID_Trash/59122e8af773e794b9c1ebcb2ef4cdb8
     guid: 59122e8af773e794b9c1ebcb2ef4cdb8
   - enabled: 1
     path: Assets/Scenes/Map Select 2.unity

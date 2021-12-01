@@ -1,34 +1,61 @@
 fileFormatVersion: 2
-guid: fc973581b8394e1419fde794620095d5
+guid: 01073aab4ce0cf44990851888aa8f6a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: lalapan_0
+      213: -5360404482258497669
+    second: peyem_0
   - first:
-      213: 21300002
-    second: lalapan_1
+      213: -1369776664680388033
+    second: peyem_1
   - first:
-      213: 21300004
-    second: lalapan_2
+      213: 1293818430608429568
+    second: peyem_2
   - first:
-      213: 21300006
-    second: lalapan_3
+      213: 1995074744018159985
+    second: peyem_3
   - first:
-      213: 21300008
-    second: lalapan_4
+      213: -1032048536845755316
+    second: peyem_4
   - first:
-      213: 21300010
-    second: lalapan_5
+      213: -3263411354508168661
+    second: peyem_5
   - first:
-      213: 21300012
-    second: lalapan_6
+      213: -1553845651058164527
+    second: peyem_6
   - first:
-      213: 21300014
-    second: lalapan_7
+      213: -5353726292514318677
+    second: peyem_7
   - first:
-      213: 21300016
-    second: lalapan_8
+      213: -3025822798700846662
+    second: peyem_8
+  - first:
+      213: 847959021218970045
+    second: peyem_0
+  - first:
+      213: -6393901863357150208
+    second: peyem_1
+  - first:
+      213: 682723172152086394
+    second: peyem_2
+  - first:
+      213: -4985272988859366286
+    second: peyem_3
+  - first:
+      213: 9113811067810619598
+    second: peyem_4
+  - first:
+      213: 5040217575894606147
+    second: peyem_5
+  - first:
+      213: 6421007138053111589
+    second: peyem_6
+  - first:
+      213: 4067835676452187989
+    second: peyem_7
+  - first:
+      213: 5098438376778251800
+    second: peyem_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +77,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -59,9 +85,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -82,13 +108,10 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -101,7 +124,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -113,19 +136,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
@@ -137,7 +148,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -149,18 +172,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lalapan_0
+      name: peyem_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 229.33334
-        width: 186
-        height: 114.666664
+        y: 997.3334
+        width: 784.6667
+        height: 498.66666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca66417bd43bc0849864f4a1c26cb35e
-      internalID: 21300000
+      spriteID: db938d3bc3e84cb00800000000000000
+      internalID: 847959021218970045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lalapan_1
+      name: peyem_1
       rect:
         serializedVersion: 2
-        x: 186
-        y: 229.33334
-        width: 186
-        height: 114.666664
+        x: 784
+        y: 997.3334
+        width: 784.6667
+        height: 498.66666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ead43527643c24a98f0228b3afb556
-      internalID: 21300002
+      spriteID: 00c83e1b12c4447a0800000000000000
+      internalID: -6393901863357150208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lalapan_2
+      name: peyem_2
       rect:
         serializedVersion: 2
-        x: 372
-        y: 229.33334
-        width: 186
-        height: 114.666664
+        x: 1568
+        y: 997.3334
+        width: 784.6667
+        height: 498.66666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,83 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c081cc72fc1b6f8498992bebb4d607b9
-      internalID: 21300004
+      spriteID: a7f8d0c9b15897900800000000000000
+      internalID: 682723172152086394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lalapan_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 115.333336
-        width: 186
-        height: 114.666664
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 907ffd8220742ec4c8ad0e67289a1c3c
-      internalID: 21300006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lalapan_4
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 115.333336
-        width: 186
-        height: 114.666664
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac25c6fdaf61e8a4c80f7449b9b6c042
-      internalID: 21300008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lalapan_5
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 115.333336
-        width: 186
-        height: 114.666664
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 072a3d299d9c96545a024dc05c8ee9bf
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lalapan_6
+      name: peyem_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1.3333359
-        width: 186
-        height: 114.666664
+        y: 499.33334
+        width: 784.6667
+        height: 498.66666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0d5c3be7c7876845b4c6292027c0a66
-      internalID: 21300012
+      spriteID: 27400b631a0c0dab0800000000000000
+      internalID: -4985272988859366286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lalapan_7
+      name: peyem_4
       rect:
         serializedVersion: 2
-        x: 186
-        y: 1.3333359
-        width: 186
-        height: 114.666664
+        x: 784
+        y: 499.33334
+        width: 784.6667
+        height: 498.66666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cb99e74a931e624bb3cda787d83e4b2
-      internalID: 21300014
+      spriteID: ec020ee01e2ca7e70800000000000000
+      internalID: 9113811067810619598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lalapan_8
+      name: peyem_5
       rect:
         serializedVersion: 2
-        x: 372
-        y: 1.3333359
-        width: 186
-        height: 114.666664
+        x: 1568
+        y: 499.33334
+        width: 784.6667
+        height: 498.66666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,8 +296,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96807370e98968e4e821e942b212aef3
-      internalID: 21300016
+      spriteID: 341e0e95e2372f540800000000000000
+      internalID: 5040217575894606147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peyem_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333435
+        width: 784.6667
+        height: 498.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f37ebd8fffb1950800000000000000
+      internalID: 6421007138053111589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peyem_7
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1.3333435
+        width: 784.6667
+        height: 498.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fe793defad37830800000000000000
+      internalID: 4067835676452187989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peyem_8
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1.3333435
+        width: 784.6667
+        height: 498.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e3615e0ba41c640800000000000000
+      internalID: 5098438376778251800
       vertices: []
       indices: 
       edges: []
@@ -345,7 +368,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 264d6b597befc51489426b78b745dfc1
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

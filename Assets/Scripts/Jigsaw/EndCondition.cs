@@ -33,7 +33,7 @@ public class EndCondition : MonoBehaviour
 
     public void CekPuzzle()
     {
-        for(int i = 0; i < 4; i++)
+        for(int i = 0; i < 9; i++)
         {
             if (transform.GetChild(i).GetComponent<Dragdrop>().onTempel)
             {
@@ -43,7 +43,7 @@ public class EndCondition : MonoBehaviour
             else
             {
                 selesai = false;
-                i = 4;
+                i = 9;
             }
         }
 
@@ -60,7 +60,7 @@ public class EndCondition : MonoBehaviour
 
     public void ResetPuzzle()
     {
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 9; i++)
         {
             puzzle.transform.GetChild(i).GetComponent<Dragdrop>().onTempel = false;
             puzzle.transform.GetChild(i).GetComponent<Dragdrop>().onPos = false;
