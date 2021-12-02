@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 168744497}
   - component: {fileID: 168744496}
   m_Layer: 5
-  m_Name: loadingbar
+  m_Name: loading_frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -466}
-  m_SizeDelta: {x: 1000, y: 157.71527}
+  m_SizeDelta: {x: 813.7096, y: 157.71527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168744496
 MonoBehaviour:
@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 1765085347}
   - component: {fileID: 1765085346}
   m_Layer: 5
-  m_Name: loadingbar2
+  m_Name: loading_bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -686,7 +686,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -496}
-  m_SizeDelta: {x: 739.052, y: 69.222046}
+  m_SizeDelta: {x: 601.3738, y: 69.222046}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1926232910
 GameObject:

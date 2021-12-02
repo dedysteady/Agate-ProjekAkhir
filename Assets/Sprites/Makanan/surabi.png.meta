@@ -1,55 +1,34 @@
 fileFormatVersion: 2
-guid: dea3b53604bd48a4da21f1129df3339f
+guid: bc27692fb8599b840912caa0bd8b3f34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4634211440271692951
-    second: nasi jamblang_0
+      213: -4089979203374222423
+    second: surabi2_0
   - first:
-      213: -3726040979328128522
-    second: nasi jamblang_1
+      213: -4251628423022158304
+    second: surabi2_1
   - first:
-      213: 2999656181449982142
-    second: nasi jamblang_2
+      213: -1669072603699754888
+    second: surabi2_2
   - first:
-      213: -6834440384521726712
-    second: nasi jamblang_3
+      213: -6172904577971321147
+    second: surabi2_3
   - first:
-      213: -5314591254472984829
-    second: nasi jamblang_4
+      213: -8121020377029297322
+    second: surabi2_4
   - first:
-      213: 4487061706305584559
-    second: nasi jamblang_5
+      213: -3755912461583582195
+    second: surabi2_5
   - first:
-      213: -584884854889278682
-    second: nasi jamblang_6
+      213: 5476159148055820748
+    second: surabi2_6
   - first:
-      213: -6712441245506590137
-    second: nasi jamblang_7
+      213: -2518554504569472735
+    second: surabi2_7
   - first:
-      213: 7809722491921457206
-    second: nasi jamblang_8
-  - first:
-      213: 1286812313840329208
-    second: nasi jamblang_9
-  - first:
-      213: 3702517647582759892
-    second: nasi jamblang_10
-  - first:
-      213: 8244532208853617904
-    second: nasi jamblang_11
-  - first:
-      213: -2830506281468064872
-    second: nasi jamblang_12
-  - first:
-      213: 8041208504145792069
-    second: nasi jamblang_13
-  - first:
-      213: 8036750903115215006
-    second: nasi jamblang_14
-  - first:
-      213: 6317896925464603854
-    second: nasi jamblang_15
+      213: -2672342240811476270
+    second: surabi2_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -171,13 +150,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nasi jamblang_0
+      name: surabi2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1197.75
-        width: 497
-        height: 399.25
+        y: 1034.6667
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 794127770c6005040800000000000000
-      internalID: 4634211440271692951
+      spriteID: 9a3f42c85997d37c0800000000000000
+      internalID: -4089979203374222423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_1
+      name: surabi2_1
       rect:
         serializedVersion: 2
-        x: 497
-        y: 1197.75
-        width: 497
-        height: 399.25
+        x: 989
+        y: 1034.6667
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9299088717a4cc0800000000000000
-      internalID: -3726040979328128522
+      spriteID: 02e5fc0b97e2ff4c0800000000000000
+      internalID: -4251628423022158304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_2
+      name: surabi2_2
       rect:
         serializedVersion: 2
-        x: 994
-        y: 1197.75
-        width: 497
-        height: 399.25
+        x: 1978
+        y: 1034.6667
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,41 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb081a7776be0a920800000000000000
-      internalID: 2999656181449982142
+      spriteID: 878c3206f4346d8e0800000000000000
+      internalID: -1669072603699754888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_3
-      rect:
-        serializedVersion: 2
-        x: 1491
-        y: 1197.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8059ff14ea03721a0800000000000000
-      internalID: -6834440384521726712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_4
+      name: surabi2_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 798.75
-        width: 497
-        height: 399.25
+        y: 517.6667
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3077db67967ce36b0800000000000000
-      internalID: -5314591254472984829
+      spriteID: 5c603a5edff655aa0800000000000000
+      internalID: -6172904577971321147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_5
+      name: surabi2_4
       rect:
         serializedVersion: 2
-        x: 497
-        y: 798.75
-        width: 497
-        height: 399.25
+        x: 989
+        y: 517.6667
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fad3a9139de354e30800000000000000
-      internalID: 4487061706305584559
+      spriteID: 65bb57d7ef65c4f80800000000000000
+      internalID: -8121020377029297322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_6
+      name: surabi2_5
       rect:
         serializedVersion: 2
-        x: 994
-        y: 798.75
-        width: 497
-        height: 399.25
+        x: 1978
+        y: 517.6667
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,41 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62391d5c25212e7f0800000000000000
-      internalID: -584884854889278682
+      spriteID: d0cf8df048150ebc0800000000000000
+      internalID: -3755912461583582195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_7
-      rect:
-        serializedVersion: 2
-        x: 1491
-        y: 798.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74a26e1504e98d2a0800000000000000
-      internalID: -6712441245506590137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_8
+      name: surabi2_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 399.75
-        width: 497
-        height: 399.25
+        y: 0.666687
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6306b5d8a35b16c60800000000000000
-      internalID: 7809722491921457206
+      spriteID: cc97f513bb93ffb40800000000000000
+      internalID: 5476159148055820748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_9
+      name: surabi2_7
       rect:
         serializedVersion: 2
-        x: 497
-        y: 399.75
-        width: 497
-        height: 399.25
+        x: 989
+        y: 0.666687
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f12d0b4bfcabd110800000000000000
-      internalID: 1286812313840329208
+      spriteID: 1293daf950c4c0dd0800000000000000
+      internalID: -2518554504569472735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nasi jamblang_10
+      name: surabi2_8
       rect:
         serializedVersion: 2
-        x: 994
-        y: 399.75
-        width: 497
-        height: 399.25
+        x: 1978
+        y: 0.666687
+        width: 989.3333
+        height: 517.3333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,113 +332,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4db09c60f2cf16330800000000000000
-      internalID: 3702517647582759892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_11
-      rect:
-        serializedVersion: 2
-        x: 1491
-        y: 399.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fc8cffcc567a6270800000000000000
-      internalID: 8244532208853617904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89b859e988508b8d0800000000000000
-      internalID: -2830506281468064872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_13
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 0.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54cc576c78c189f60800000000000000
-      internalID: 8041208504145792069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_14
-      rect:
-        serializedVersion: 2
-        x: 994
-        y: 0.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e907b78ad56488f60800000000000000
-      internalID: 8036750903115215006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nasi jamblang_15
-      rect:
-        serializedVersion: 2
-        x: 1491
-        y: 0.75
-        width: 497
-        height: 399.25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecca9d1b7cdada750800000000000000
-      internalID: 6317896925464603854
+      spriteID: 2da192204eee9ead0800000000000000
+      internalID: -2672342240811476270
       vertices: []
       indices: 
       edges: []
