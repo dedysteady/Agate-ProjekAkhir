@@ -1,7 +1,130 @@
 fileFormatVersion: 2
-guid: 90122a054a4b1564487b6e229a8a4f89
+guid: ad89b7e05cfb69441bc0413f5e6a1f67
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3016674256640509440
+    second: toge goreng_0
+  - first:
+      213: -1764273509223979460
+    second: toge goreng_1
+  - first:
+      213: -3692054051790788912
+    second: toge goreng_2
+  - first:
+      213: -7349612867831503610
+    second: toge goreng_3
+  - first:
+      213: -4939733437664630547
+    second: toge goreng_4
+  - first:
+      213: 4474494155427975655
+    second: toge goreng_5
+  - first:
+      213: 8415120603233276556
+    second: toge goreng_6
+  - first:
+      213: -2647535376200262028
+    second: toge goreng_7
+  - first:
+      213: -3645189842603772249
+    second: toge goreng_8
+  - first:
+      213: 470396413893876657
+    second: toge goreng_9
+  - first:
+      213: 887246696333985243
+    second: toge goreng_10
+  - first:
+      213: 8610991184815472889
+    second: toge goreng_11
+  - first:
+      213: 8795349288287863088
+    second: toge goreng_12
+  - first:
+      213: 8219252911366049642
+    second: toge goreng_13
+  - first:
+      213: 1488717052251165806
+    second: toge goreng_14
+  - first:
+      213: 988048246009911224
+    second: toge goreng_15
+  - first:
+      213: -7258482366224240297
+    second: toge goreng_16
+  - first:
+      213: 4017923677479203648
+    second: toge goreng_17
+  - first:
+      213: 5150280213724705280
+    second: toge goreng_18
+  - first:
+      213: -2714357868401299652
+    second: toge goreng_19
+  - first:
+      213: 6249339652819928390
+    second: toge goreng_20
+  - first:
+      213: 5189552413463976269
+    second: toge goreng_21
+  - first:
+      213: 557617767402096581
+    second: toge goreng_22
+  - first:
+      213: -8364383534815822768
+    second: toge goreng_23
+  - first:
+      213: -6756712008839527406
+    second: toge goreng_24
+  - first:
+      213: -2126440515805014180
+    second: toge goreng_5
+  - first:
+      213: 2056363147344875580
+    second: toge goreng_6
+  - first:
+      213: 8164840406803375033
+    second: toge goreng_7
+  - first:
+      213: -7769379765212692177
+    second: toge goreng_8
+  - first:
+      213: -3406739254382550350
+    second: toge goreng_10
+  - first:
+      213: 2220786246087666437
+    second: toge goreng_11
+  - first:
+      213: 8935854537658251354
+    second: toge goreng_12
+  - first:
+      213: -7199143038487590841
+    second: toge goreng_13
+  - first:
+      213: -1898352686992820261
+    second: toge goreng_15
+  - first:
+      213: 8158888456639282279
+    second: toge goreng_16
+  - first:
+      213: -7201825681416947811
+    second: toge goreng_17
+  - first:
+      213: 1055526828012200783
+    second: toge goreng_18
+  - first:
+      213: 168612585640455784
+    second: toge goreng_20
+  - first:
+      213: -6608865240883027017
+    second: toge goreng_21
+  - first:
+      213: 6285246528982458993
+    second: toge goreng_22
+  - first:
+      213: 2217866799305344600
+    second: toge goreng_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +163,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +194,582 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: toge goreng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 870.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a70e12fbe9226d0800000000000000
+      internalID: -3016674256640509440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 870.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a214479a0487e0800000000000000
+      internalID: -1764273509223979460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 870.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e777b66033ccc0800000000000000
+      internalID: -3692054051790788912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 870.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6056340690ee00a90800000000000000
+      internalID: -7349612867831503610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 870.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de861ea3c9a827bb0800000000000000
+      internalID: -4939733437664630547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 653.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb13c1db0f278600800000000000000
+      internalID: 470396413893876657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 436.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e645f7e754cf8a410800000000000000
+      internalID: 1488717052251165806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_19
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 219.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f67a466e9a45ad0800000000000000
+      internalID: -2714357868401299652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_24
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2.399994
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214018ff9365b32a0800000000000000
+      internalID: -6756712008839527406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 653.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5791730e9d5d72e0800000000000000
+      internalID: -2126440515805014180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 653.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3012be236ba98c10800000000000000
+      internalID: 2056363147344875580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 653.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3654f37175f4170800000000000000
+      internalID: 8164840406803375033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_8
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 653.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21c369744e9d2490800000000000000
+      internalID: -7769379765212692177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b22624a2b4d8b0d0800000000000000
+      internalID: -3406739254382550350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 436.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be0281351d1de10800000000000000
+      internalID: 2220786246087666437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 436.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58bea99b58820c70800000000000000
+      internalID: 8935854537658251354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 436.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74888b79c81871c90800000000000000
+      internalID: -7199143038487590841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd772610a42b7a5e0800000000000000
+      internalID: -1898352686992820261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 219.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cf40cd2d13a3170800000000000000
+      internalID: 8158888456639282279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 219.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d977bdc13b9fd0c90800000000000000
+      internalID: -7201825681416947811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 219.4
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43ef82ce0cf5ae00800000000000000
+      internalID: 1055526828012200783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e62c7d048075200800000000000000
+      internalID: 168612585640455784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2.399994
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3adb424189844a0800000000000000
+      internalID: -6608865240883027017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2.399994
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a1cdda6ea93750800000000000000
+      internalID: 6285246528982458993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toge goreng_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2.399994
+        width: 250
+        height: 217.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8564abb6a1277ce10800000000000000
+      internalID: 2217866799305344600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

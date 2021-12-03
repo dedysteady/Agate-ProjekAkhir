@@ -2998,7 +2998,7 @@ PrefabInstance:
     - target: {fileID: 2804143123906047249, guid: b8f0540fb0624fb49971daf34388ac68,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Sliding (5)
+      value: Sliding (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2804143123945963872, guid: b8f0540fb0624fb49971daf34388ac68,
         type: 3}

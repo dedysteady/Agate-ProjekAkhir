@@ -21,7 +21,7 @@ public class EasyLevelManager : MonoBehaviour
     void Start()
     {
         _camera = Camera.main;
-        Shuffle();
+        //Shuffle();
     }
 
     // Update is called once per frame

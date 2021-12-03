@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 202890642}
   - component: {fileID: 202890644}
   - component: {fileID: 202890645}
+  - component: {fileID: 202890643}
   m_Layer: 0
   m_Name: food_7
   m_TagString: Untagged
@@ -153,6 +154,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &202890643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202890641}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &202890644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -230,6 +257,7 @@ GameObject:
   - component: {fileID: 203045022}
   - component: {fileID: 203045024}
   - component: {fileID: 203045023}
+  - component: {fileID: 203045025}
   m_Layer: 0
   m_Name: food_9
   m_TagString: Untagged
@@ -317,6 +345,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &203045025
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203045021}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &252189310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2804143123945963873, guid: b8f0540fb0624fb49971daf34388ac68,
@@ -340,6 +394,7 @@ GameObject:
   - component: {fileID: 266435497}
   - component: {fileID: 266435499}
   - component: {fileID: 266435500}
+  - component: {fileID: 266435498}
   m_Layer: 0
   m_Name: food_2
   m_TagString: Untagged
@@ -361,6 +416,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &266435498
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266435496}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &266435499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -583,56 +664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0c13ca52e7654408d2877800d94713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &355798834 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2804143123777344557, guid: b8f0540fb0624fb49971daf34388ac68,
-    type: 3}
-  m_PrefabInstance: {fileID: 2804143124131044127}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &413873480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 413873481}
-  - component: {fileID: 413873483}
-  - component: {fileID: 413873482}
-  m_Layer: 5
-  m_Name: Foto Makanan
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &413873481
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 413873480}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 278693653}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -17}
-  m_SizeDelta: {x: 330, y: 245}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &413873482
+--- !u!114 &317289999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -661,6 +693,55 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &355798834 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2804143123777344557, guid: b8f0540fb0624fb49971daf34388ac68,
+    type: 3}
+  m_PrefabInstance: {fileID: 2804143124131044127}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &413873480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 413873481}
+  - component: {fileID: 413873483}
+  - component: {fileID: 317289999}
+  m_Layer: 5
+  m_Name: Foto Makanan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &413873481
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413873480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 278693653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -17}
+  m_SizeDelta: {x: 330, y: 245}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &413873483
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -680,6 +761,7 @@ GameObject:
   - component: {fileID: 439010112}
   - component: {fileID: 439010114}
   - component: {fileID: 439010115}
+  - component: {fileID: 439010113}
   m_Layer: 0
   m_Name: food_6
   m_TagString: Untagged
@@ -701,6 +783,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &439010113
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439010111}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &439010114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -988,6 +1096,7 @@ GameObject:
   - component: {fileID: 565449444}
   - component: {fileID: 565449446}
   - component: {fileID: 565449445}
+  - component: {fileID: 565449447}
   m_Layer: 0
   m_Name: food_11
   m_TagString: Untagged
@@ -1075,6 +1184,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &565449447
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565449443}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &584349301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1221,7 @@ GameObject:
   - component: {fileID: 584349302}
   - component: {fileID: 584349304}
   - component: {fileID: 584349305}
+  - component: {fileID: 584349303}
   m_Layer: 0
   m_Name: food_5
   m_TagString: Untagged
@@ -1107,6 +1243,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &584349303
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584349301}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &584349304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1698,6 +1860,7 @@ GameObject:
   - component: {fileID: 994316154}
   - component: {fileID: 994316156}
   - component: {fileID: 994316157}
+  - component: {fileID: 994316155}
   m_Layer: 0
   m_Name: food_1
   m_TagString: Untagged
@@ -1719,6 +1882,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &994316155
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994316153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &994316156
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1796,6 +1985,7 @@ GameObject:
   - component: {fileID: 996286798}
   - component: {fileID: 996286800}
   - component: {fileID: 996286801}
+  - component: {fileID: 996286799}
   m_Layer: 0
   m_Name: food_3
   m_TagString: Untagged
@@ -1817,6 +2007,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &996286799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996286797}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &996286800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1961,6 +2177,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054381801}
   m_CullTransparentMesh: 0
+--- !u!114 &1062686921 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7850797687302101237, guid: 992e41b93d9efab4bb5a0157f93ef6b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 584578627}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e048706fea44086479d3d22b129b04cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1069883083
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,7 +2256,7 @@ MonoBehaviour:
   starHolder: {fileID: 3024299462168856296}
   puzzle: {fileID: 867100925}
   endPanelTimeText: {fileID: 355798834}
-  coinManager: {fileID: 0}
+  coinManager: {fileID: 1062686921}
 --- !u!114 &1069883087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2074,6 +2302,7 @@ GameObject:
   - component: {fileID: 1075609254}
   - component: {fileID: 1075609256}
   - component: {fileID: 1075609255}
+  - component: {fileID: 1075609257}
   m_Layer: 0
   m_Name: food_14
   m_TagString: Untagged
@@ -2161,6 +2390,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1075609257
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075609253}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &1080647899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2556,7 @@ GameObject:
   - component: {fileID: 1144161737}
   - component: {fileID: 1144161739}
   - component: {fileID: 1144161740}
+  - component: {fileID: 1144161738}
   m_Layer: 0
   m_Name: food_4
   m_TagString: Untagged
@@ -2322,6 +2578,32 @@ Transform:
   m_Father: {fileID: 867100926}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1144161738
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144161736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!212 &1144161739
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2507,6 +2789,7 @@ GameObject:
   - component: {fileID: 1471052255}
   - component: {fileID: 1471052257}
   - component: {fileID: 1471052256}
+  - component: {fileID: 1471052258}
   m_Layer: 0
   m_Name: food_10
   m_TagString: Untagged
@@ -2594,6 +2877,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1471052258
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471052254}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &1527419231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,6 +2992,7 @@ GameObject:
   - component: {fileID: 1553380277}
   - component: {fileID: 1553380278}
   - component: {fileID: 1553380280}
+  - component: {fileID: 1553380279}
   m_Layer: 0
   m_Name: food_0
   m_TagString: Untagged
@@ -2754,6 +3064,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1553380279
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553380276}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!114 &1553380280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2934,6 +3270,7 @@ GameObject:
   - component: {fileID: 1948159499}
   - component: {fileID: 1948159501}
   - component: {fileID: 1948159500}
+  - component: {fileID: 1948159502}
   m_Layer: 0
   m_Name: food_8
   m_TagString: Untagged
@@ -3021,6 +3358,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1948159502
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948159498}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &1961093579
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,6 +3395,7 @@ GameObject:
   - component: {fileID: 1961093580}
   - component: {fileID: 1961093582}
   - component: {fileID: 1961093581}
+  - component: {fileID: 1961093583}
   m_Layer: 0
   m_Name: food_13
   m_TagString: Untagged
@@ -3119,6 +3483,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1961093583
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961093579}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &2062712104
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,6 +3520,7 @@ GameObject:
   - component: {fileID: 2062712105}
   - component: {fileID: 2062712107}
   - component: {fileID: 2062712106}
+  - component: {fileID: 2062712108}
   m_Layer: 0
   m_Name: food_12
   m_TagString: Untagged
@@ -3217,6 +3608,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2062712108
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062712104}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2875, y: 2.0525}
+    newSize: {x: 1.86, y: 1.1466666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2875, y: 2.0525}
+  m_EdgeRadius: 0
 --- !u!1 &2121193344
 GameObject:
   m_ObjectHideFlags: 0
