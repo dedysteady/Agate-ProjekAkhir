@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash Screen.unity
+    guid: 95fa241e9a481984d9a3aeb3bd639e36
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Select Puzzle.unity
+    guid: b9f3a370e88f40545a36f616480aded0
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Select Main Map Jigsaw.unity
+    guid: f8c941242a23a124ba5dbcd4220e5686
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Select Mini Map Jigsaw.unity
+    guid: 666cb27c3e58c3441ae947a474344795
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Select Stage Jigsaw.unity
+    guid: dcf2907a4d88de2448044261e7824eee
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Level/Level 1 Jigsaw.unity
+    guid: 45a380e0d7a203a4596d593dc74e9a43
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Level/Level 2 Jigsaw.unity
+    guid: 1992a264576c53643aad2411e429bff6
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Level/Level 3 Jigsaw.unity
+    guid: 8d8f8ba4d4001f1498575a32d586c541
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Level/Level 4 Jigsaw.unity
+    guid: a7cd30ea2a21a7946ae74cbece5f9565
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw Puzzle/Level/Level 5 Jigsaw.unity
+    guid: 358b82cbc5ed90141909b16b1bb51934
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Select Main Map Sliding.unity
+    guid: 5df603fada8d95e4dae916f043334165
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Select Mini Map Sliding.unity
+    guid: f48238191f781ff4bafba6d4ece78708
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Select Stage Sliding.unity
+    guid: 3fe619f3ad22c2d43ab4e9847116583a
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Level/Level 1 Sliding.unity
+    guid: 9c949fa88219a3d4db8fbeb4f9726587
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Level/Level 2 Sliding.unity
+    guid: 8d25771672ed655458ed43b4ceaf0916
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Level/Level 3 Sliding.unity
+    guid: e26836db26b7997469078629e13f2684
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Level/Level 4 Sliding.unity
+    guid: bbdf206f88a68d24285e31fc90b25d24
+  - enabled: 1
+    path: Assets/Scenes/Sliding Puzzle/Level/Level 5 Sliding.unity
+    guid: b063a7cd9db5e084cabd5072a6fc4813
+  m_configObjects: {}
