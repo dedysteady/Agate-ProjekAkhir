@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject winCondition, pausemenu, puzzle;
+    public GameObject winCondition, pausemenu, puzzle, info;
 
     public TimeManager timeManager;
     public HintManager hintManager;
@@ -35,7 +35,8 @@ public class GameManager : MonoBehaviour
     public void WinCondition()
     {
         puzzle.SetActive(false);
-        winCondition.SetActive(true);
+        info.SetActive(true);
+        winCondition.SetActive(false);
         pausemenu.SetActive(false);
         Time.timeScale = 1f;
     }
