@@ -127,6 +127,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 294514592940888430}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &22606485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7329989159928654171, guid: b74df5a9e315b614c9e08dc0fa81e762,
+    type: 3}
+  m_PrefabInstance: {fileID: 179910946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &49490555
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +429,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Info Makanan
       objectReference: {fileID: 0}
+    - target: {fileID: 7329989159928654171, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7329989159928654180, guid: b74df5a9e315b614c9e08dc0fa81e762,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -528,6 +539,81 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7329989159942748064, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.20415011
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989159942748064, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989159942748064, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.7958499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989160274984067, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000030517578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989160274984067, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989160636057174, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 294514592940888431}
+    - target: {fileID: 7329989160636057174, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161351031382, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161351031382, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161351031382, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161351031382, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161570666885, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161570666885, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161570666885, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7329989161570666885, guid: b74df5a9e315b614c9e08dc0fa81e762,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b74df5a9e315b614c9e08dc0fa81e762, type: 3}
 --- !u!224 &179910947 stripped
@@ -568,7 +654,7 @@ MonoBehaviour:
   winCondition: {fileID: 294514592940888431}
   pausemenu: {fileID: 1580224542}
   puzzle: {fileID: 207466818}
-  info: {fileID: 0}
+  info: {fileID: 22606485}
   timeManager: {fileID: 2049461595}
   hintManager: {fileID: 0}
   star1: {fileID: 14142331}
