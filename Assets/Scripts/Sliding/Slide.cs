@@ -9,15 +9,16 @@ public class Slide : MonoBehaviour
     [SerializeField] public Tile[] tiles;
     [SerializeField] int emptySpaceIndex = 8;
     [SerializeField] int IndexTile = 7;
+    [SerializeField] double vectordistance = 1.5;
 
     public GameObject puzzle;
     public Text time, coin;
     [SerializeField] bool selesai = false;
 
     public TimeManager timeManager;
-    public SingleLevel singleLevel;
     public CoinManager coinManager;
     public GameManager gameManager;
+    public SingleLevelSliding singleLevelSliding;
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +45,7 @@ public class Slide : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             if (hit)
             {
-                if (Vector2.Distance(emptySpace.position, hit.transform.position) < .7)
+                if (Vector2.Distance(emptySpace.position, hit.transform.position) < vectordistance)
                 {
                     Vector2 lastEmptySpacePosition = emptySpace.position;
                     Tile thisTile = hit.transform.GetComponent<Tile>();
@@ -142,7 +143,7 @@ public class Slide : MonoBehaviour
             timeManager.timeActive = false;
             gameManager.WinCondition();
             gameManager.TimeStarSliding();
-            //singleLevel.UpdateStar();
+            singleLevelSliding.UpdateStar();
             coinManager.UpdateCoin();
             coin.text = coinManager.coinText.text;
         }
