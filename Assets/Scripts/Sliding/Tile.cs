@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    public Vector3 targetPosition;
-    Vector3 correctPosition;
+    public Vector2 targetPosition;
+    Vector2 correctPosition;
     SpriteRenderer _sprite;
     public int number; 
     public bool inRightPlace;
@@ -26,7 +26,7 @@ public class Tile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, targetPosition, .25f);
+        transform.position = Vector2.Lerp(transform.position, targetPosition, .25f);
         if(targetPosition == correctPosition)
         {
             _sprite.color = Color.green;

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HintManager : MonoBehaviour
 {
-    public int currentHint = 0, Hint;
+    public int currentHint = 0, Hint, HintUse;
     public Text hintText;
 
     public List<Dragdrop> list = new List<Dragdrop>();
@@ -18,6 +18,10 @@ public class HintManager : MonoBehaviour
         if (PlayerPrefs.HasKey("Hint"))
         {
             currentHint = PlayerPrefs.GetInt("Hint");
+        }
+        if (PlayerPrefs.HasKey("HintUse"))
+        {
+            HintUse = PlayerPrefs.GetInt("HintUse");
         }
 
         UpdateHint();
@@ -53,6 +57,7 @@ public class HintManager : MonoBehaviour
                 list[randomIndex].OnMouseUp();
                 list.Remove(list[randomIndex]);
                 currentHint--;
+                HintUse++;
             }
             
         }
@@ -63,6 +68,7 @@ public class HintManager : MonoBehaviour
         }
 
         PlayerPrefs.SetInt("Hint", currentHint);
+        PlayerPrefs.SetInt("HintUse", HintUse);
     }
 
     public void UseHintSliding()
@@ -76,6 +82,7 @@ public class HintManager : MonoBehaviour
                     number.SetActive(true);
                 }
                 currentHint--;
+                HintUse++;
                 useHint = true;
             }
             else
@@ -88,6 +95,7 @@ public class HintManager : MonoBehaviour
         }
 
         PlayerPrefs.SetInt("Hint", currentHint);
+        PlayerPrefs.SetInt("HintUse", HintUse);
 
     }
 }

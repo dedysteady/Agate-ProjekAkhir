@@ -8,7 +8,7 @@ public class MenuShop : MonoBehaviour
     public HintManager hintManager;
     public CoinManager coinManager;
 
-    int coin, hint;
+    int coin, hint, BuyHint;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,10 @@ public class MenuShop : MonoBehaviour
         if (PlayerPrefs.HasKey("Hint"))
         {
             hintManager.currentHint = PlayerPrefs.GetInt("Hint");
+        }
+        if (PlayerPrefs.HasKey("BuyHint"))
+        {
+            BuyHint = PlayerPrefs.GetInt("BuyHint");
         }
     }
 
@@ -68,8 +72,10 @@ public class MenuShop : MonoBehaviour
         {
             coinManager.currentCoin -= coin;
             hintManager.currentHint += hint;
+            BuyHint += hint;
             PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
             PlayerPrefs.SetInt("Hint", hintManager.currentHint);
+            PlayerPrefs.SetInt("BuyHint", BuyHint);
         }
         else
         {
