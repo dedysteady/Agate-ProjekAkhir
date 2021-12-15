@@ -11,7 +11,7 @@ public class EndCondition : MonoBehaviour
     [SerializeField]bool selesai = false;
 
     public TimeManager timeManager;
-    public SingleLevel singleLevel;
+    public SingleLevelJigsaw singleLevelJigsaw;
     public CoinManager coinManager;
     public GameManager gameManager;
 
@@ -51,7 +51,7 @@ public class EndCondition : MonoBehaviour
             timeManager.timeActive = false;
             gameManager.WinCondition();
             gameManager.TimeStarJigsaw();
-            //singleLevel.UpdateStar();
+            singleLevelJigsaw.UpdateStar();
             coinManager.UpdateCoin();
             coin.text = coinManager.coinText.text;
         }

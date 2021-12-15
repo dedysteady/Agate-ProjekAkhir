@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu Shop.unity
     guid: 524f3eb4c2dd9114a94b55aee0587a79
   - enabled: 1
+    path: Assets/Scenes/Menu Spin.unity
+    guid: 47101913d218f6e4fbf4f3e099df9f08
+  - enabled: 1
+    path: Assets/Scenes/Menu Quest.unity
+    guid: 04470d639fb94f146863cf6e8a6a7417
+  - enabled: 1
     path: Assets/Scenes/Select Puzzle.unity
     guid: b9f3a370e88f40545a36f616480aded0
   - enabled: 1

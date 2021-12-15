@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 1d2917924fccbc248b30d22e5c50ed45, type: 3}
     - target: {fileID: 1364207725216258018, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_Name
-      value: Button Level (3)
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -149,7 +149,7 @@ PrefabInstance:
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 1364207724857814478}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -160,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectStage, Assembly-CSharp
+      value: LevelSelectJigsaw, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: starSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c0cece94fd7a744fb6d2ed4605917ad, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
 --- !u!224 &124884496 stripped
@@ -282,7 +286,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61cf66ae68ba9fc448f9b512aab72201, type: 3}
     - target: {fileID: 1364207725216258018, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_Name
-      value: Button Level (2)
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -295,7 +299,7 @@ PrefabInstance:
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 1364207724857814478}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -306,7 +310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectStage, Assembly-CSharp
+      value: LevelSelectJigsaw, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -408,6 +412,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: starSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c0cece94fd7a744fb6d2ed4605917ad, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
 --- !u!224 &352915703 stripped
@@ -433,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: c837a96f96793904baa1c32170d19dd8, type: 3}
     - target: {fileID: 1364207725216258018, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_Name
-      value: Button Level (1)
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -446,7 +454,7 @@ PrefabInstance:
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 1364207724857814478}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -457,7 +465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectStage, Assembly-CSharp
+      value: LevelSelectJigsaw, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -559,6 +567,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: starSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c0cece94fd7a744fb6d2ed4605917ad, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
 --- !u!224 &608915280 stripped
@@ -566,49 +578,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1364207725216258045, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
   m_PrefabInstance: {fileID: 608915279}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &849315220
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 849315221}
-  - component: {fileID: 849315222}
-  m_Layer: 0
-  m_Name: Select Stage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &849315221
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849315220}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540, y: 968.5808, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &849315222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 849315220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c0dd47a89060f749800a18cf5c345ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &866860978
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +653,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866860978}
   m_CullTransparentMesh: 1
+--- !u!1 &1134042537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1134042539}
+  - component: {fileID: 1134042538}
+  m_Layer: 0
+  m_Name: Select Stage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1134042538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134042537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c0dd47a89060f749800a18cf5c345ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1134042539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134042537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 131.5, y: 235.7243, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1345649424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -790,7 +802,7 @@ PrefabInstance:
     - target: {fileID: 1310702458275951679, guid: 9ea6aa5e7853bfb49a41673b13b4a6cf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 1134042538}
     - target: {fileID: 1310702458275951679, guid: 9ea6aa5e7853bfb49a41673b13b4a6cf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1098,7 +1110,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d4fd3441343c9e14f9d7bcc7bc91098e, type: 3}
     - target: {fileID: 1364207725216258018, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_Name
-      value: Button Level (4)
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1111,7 +1123,7 @@ PrefabInstance:
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 1364207724857814478}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1122,7 +1134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectStage, Assembly-CSharp
+      value: LevelSelectJigsaw, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1224,6 +1236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: starSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c0cece94fd7a744fb6d2ed4605917ad, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
 --- !u!224 &1910736939 stripped
@@ -1315,7 +1331,7 @@ PrefabInstance:
     - target: {fileID: 7472738598465110709, guid: 30d43dd6f006359458e3bcfa8338ccdf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 0}
     - target: {fileID: 7472738598465110709, guid: 30d43dd6f006359458e3bcfa8338ccdf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadScene
@@ -1522,7 +1538,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1364207725216258018, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_Name
-      value: Button Level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364207725216258018, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1535,7 +1559,7 @@ PrefabInstance:
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 849315222}
+      objectReference: {fileID: 1364207724857814478}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1546,7 +1570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SelectStage, Assembly-CSharp
+      value: LevelSelectJigsaw, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1364207725216258044, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -1648,5 +1672,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: unlocked
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+      propertyPath: starSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c0cece94fd7a744fb6d2ed4605917ad, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+--- !u!114 &1364207724857814478 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7078661130012224688, guid: 425c8d220a5c11d42b6edceec0edbb86, type: 3}
+  m_PrefabInstance: {fileID: 1364207724857814477}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a85ab5d5756bea24e81d9e2f44621199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
