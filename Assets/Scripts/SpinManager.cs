@@ -50,45 +50,53 @@ public class SpinManager : MonoBehaviour
                 }
             }
             if ((transform.rotation.eulerAngles.z > angle[0] && transform.rotation.eulerAngles.z < angle[1]) || (transform.rotation.eulerAngles.z < angle[15] && transform.rotation.eulerAngles.z > angle[16]))
-                {reward_txt.text = "5000 Coin";
-                coinManager.currentCoin += 5000;
-                PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
-                }
-            if ((transform.rotation.eulerAngles.z > angle[1] && transform.rotation.eulerAngles.z < angle[2]) || (transform.rotation.eulerAngles.z < angle[14] && transform.rotation.eulerAngles.z > angle[15]))
-                {reward_txt.text = "100 Coin"; 
-                coinManager.currentCoin += 100;
-                PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
-                }            
-            if ((transform.rotation.eulerAngles.z > angle[2] && transform.rotation.eulerAngles.z < angle[3]) || (transform.rotation.eulerAngles.z < angle[13] && transform.rotation.eulerAngles.z > angle[14]))
                 {reward_txt.text = "200 Coin";   
                 coinManager.currentCoin += 200;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
-                }         
-            if ((transform.rotation.eulerAngles.z > angle[3] && transform.rotation.eulerAngles.z < angle[4]) || (transform.rotation.eulerAngles.z < angle[12] && transform.rotation.eulerAngles.z > angle[13]))
+                }  
+
+            if ((transform.rotation.eulerAngles.z > angle[1] && transform.rotation.eulerAngles.z < angle[2]) || (transform.rotation.eulerAngles.z < angle[14] && transform.rotation.eulerAngles.z > angle[15]))
                 {reward_txt.text = "1 Hint";
                 hintManager.currentHint += 1;
                 PlayerPrefs.SetInt("Hint", hintManager.currentHint);
                 }
-            if ((transform.rotation.eulerAngles.z > angle[4] && transform.rotation.eulerAngles.z < angle[5]) || (transform.rotation.eulerAngles.z < angle[11] && transform.rotation.eulerAngles.z > angle[12]))
+          
+            if ((transform.rotation.eulerAngles.z > angle[2] && transform.rotation.eulerAngles.z < angle[3]) || (transform.rotation.eulerAngles.z < angle[13] && transform.rotation.eulerAngles.z > angle[14]))
                 {reward_txt.text = "1000 Coin";
                 coinManager.currentCoin += 1000;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
                 }
-            if ((transform.rotation.eulerAngles.z > angle[5] && transform.rotation.eulerAngles.z < angle[6]) || (transform.rotation.eulerAngles.z < angle[10] && transform.rotation.eulerAngles.z > angle[11]))
+     
+            if ((transform.rotation.eulerAngles.z > angle[3] && transform.rotation.eulerAngles.z < angle[4]) || (transform.rotation.eulerAngles.z < angle[12] && transform.rotation.eulerAngles.z > angle[13]))
                 {reward_txt.text = "3 Hint"; 
                 hintManager.currentHint += 3;
                 PlayerPrefs.SetInt("Hint", hintManager.currentHint);
                 }
-            if ((transform.rotation.eulerAngles.z > angle[6] && transform.rotation.eulerAngles.z < angle[7]) || (transform.rotation.eulerAngles.z < angle[9] && transform.rotation.eulerAngles.z > angle[10]))
+
+            if ((transform.rotation.eulerAngles.z > angle[4] && transform.rotation.eulerAngles.z < angle[5]) || (transform.rotation.eulerAngles.z < angle[11] && transform.rotation.eulerAngles.z > angle[12]))
                 {reward_txt.text = "2000 Coin";                  
                 coinManager.currentCoin += 2000;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
-                }            
-            if ((transform.rotation.eulerAngles.z > angle[7] && transform.rotation.eulerAngles.z < angle[8]) || (transform.rotation.eulerAngles.z < angle[0] && transform.rotation.eulerAngles.z > angle[9]))
+                }    
+
+            if ((transform.rotation.eulerAngles.z > angle[5] && transform.rotation.eulerAngles.z < angle[6]) || (transform.rotation.eulerAngles.z < angle[10] && transform.rotation.eulerAngles.z > angle[11]))
                 {reward_txt.text = "5 Hint";
                 hintManager.currentHint += 5;
                 PlayerPrefs.SetInt("Hint", hintManager.currentHint);
                 }
+
+            if ((transform.rotation.eulerAngles.z > angle[6] && transform.rotation.eulerAngles.z < angle[7]) || (transform.rotation.eulerAngles.z < angle[9] && transform.rotation.eulerAngles.z > angle[10]))  
+                {reward_txt.text = "5000 Coin";
+                coinManager.currentCoin += 5000;
+                PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
+                }
+        
+            if ((transform.rotation.eulerAngles.z > angle[7] && transform.rotation.eulerAngles.z < angle[8]) || (transform.rotation.eulerAngles.z < angle[0] && transform.rotation.eulerAngles.z > angle[9]))
+                {reward_txt.text = "100 Coin"; 
+                coinManager.currentCoin += 100;
+                PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
+                }  
+
             speed = 0;
             spin = false;
             popUp.SetActive(true);
@@ -100,42 +108,42 @@ public class SpinManager : MonoBehaviour
     {
         spin = true;
 
-        if (Random.value > 0 && Random.value <= 0.5) //%50 percent chance
+        if (Random.value >= 0 && Random.value <= 0.05) 
         {
+            speed = 50;
+        }
+     
+        if (Random.value > 0.05 && Random.value <= 0.1) 
+        { 
+            speed = 43;
+        }
+     
+        if (Random.value > 0.1 && Random.value <= 0.15) 
+        { 
+            speed = 42;
+        }
+
+        if (Random.value > 0.15 && Random.value <= 0.2) 
+        {
+            speed = 41;
+        }
+     
+        if (Random.value > 0.2 && Random.value <= 0.6) 
+        { 
             speed = 44;
         }
      
-        if (Random.value > 0.5 && Random.value <= 0.1) //%80 percent chance (1 - 0.2 is 0.8)
+        if (Random.value > 0.6 && Random.value <= 0.7) 
         { 
-            speed = 17;
-        }
-     
-        if (Random.value > 0.1 && Random.value <= 0.15) //%30 percent chance (1 - 0.7 is 0.3)
-        { 
-            speed = 50;
+            speed = 39;
         }
 
-        if (Random.value > 0.15 && Random.value <= 0.2) //%50 percent chance
-        {
-            speed = 25;
+        if (Random.value > 0.7 && Random.value <= 0.9) 
+        { 
+            speed = 37;
         }
      
-        if (Random.value > 0.2 && Random.value <= 0.3) //%80 percent chance (1 - 0.2 is 0.8)
-        { 
-            speed = 10;
-        }
-     
-        if (Random.value > 0.3 && Random.value <= 0.4) //%30 percent chance (1 - 0.7 is 0.3)
-        { 
-            speed = 20;
-        }
-
-        if (Random.value > 0.4 && Random.value <= 0.8) //%80 percent chance (1 - 0.2 is 0.8)
-        { 
-            speed = 15;
-        }
-     
-        if (Random.value > 0.8) //%30 percent chance (1 - 0.7 is 0.3)
+        if (Random.value > 0.9 && Random.value <= 1) 
         { 
             speed = 40;
         }
@@ -143,11 +151,12 @@ public class SpinManager : MonoBehaviour
 
 }
 
-// 10 = 1 hint
-// 15 = 100 coin
-// 20 = 1000 coin
-// 25 = 3 hint
-// 17 = 5000 coin
-// 40 = 200 coin
-// 44 = 5 hint
-// 50 = 2000 coin
+
+// 37 = 200 coin
+// 39 = 1 hint
+// 40 = 1000 coin
+// 41 = 3 hint
+// 42 = 2000 coin
+// 43 = 5 hint
+// 50 = 5000 coin
+// 44 = 100 coin
