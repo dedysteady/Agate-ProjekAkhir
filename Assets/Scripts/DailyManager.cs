@@ -1,11 +1,3 @@
-/// <summary>
-
-/// Created by Leaton Mitchell 11/17/2017
-
-/// Leatonm.net
-
-/// </summary>
-
 using System;
 
 using System.Collections;
@@ -22,7 +14,7 @@ public class DailyManager : MonoBehaviour {
 
 	public static DailyManager sharedInstance = null;
 
-	private string _url = "http://leatonm.net/wp-content/uploads/2017/candlepin/getdate.php"; //change this to your own
+	private string _url = "http://webenkripsi.000webhostapp.com/servertime.php"; //change this to your own
 
 	private string _timeData;
 
@@ -51,9 +43,6 @@ public class DailyManager : MonoBehaviour {
 		DontDestroyOnLoad(gameObject);
 
 	}
-
-
-
 
 
 	//time fether coroutine
@@ -111,7 +100,6 @@ public class DailyManager : MonoBehaviour {
 		Debug.Log ("TimeManager script is Ready.");
 
 		StartCoroutine ("getTime");
-
 	}
 
 
@@ -125,14 +113,9 @@ public class DailyManager : MonoBehaviour {
 	{
 
 		string[] words = _currentDate.Split('-');
-
         int x = int.Parse(words[0]+ words[1] + words[2]);
-
         return x;
-
 	}
-
-
 
 
 
@@ -141,15 +124,8 @@ public class DailyManager : MonoBehaviour {
 	public string getCurrentTimeNow()
 
 	{
-
 		return _currentTime;
-
 	}
-
-
-
-
-
 }
 
 

@@ -104,7 +104,6 @@ private void _configTimerSettings()
 	}
 
 
-
 	//enable button function
 	private void enableButton()
 	{
