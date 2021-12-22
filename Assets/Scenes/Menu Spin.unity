@@ -549,7 +549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fd2d0fc3d2813ee49967cf9ec5c454f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5ef772cfad430d4586759610a08f852, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1290,9 +1290,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeLabel: {fileID: 83258646}
   timerButton: {fileID: 1720073010}
-  hours: 11
-  minutes: 59
-  seconds: 59
+  hours: 0
+  minutes: 0
+  seconds: 2
 --- !u!1 &1738020858
 GameObject:
   m_ObjectHideFlags: 0
