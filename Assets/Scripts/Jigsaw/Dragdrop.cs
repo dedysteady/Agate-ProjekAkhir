@@ -8,6 +8,7 @@ public class Dragdrop : MonoBehaviour
     public GameObject detector;
     public Vector3 scaleAwal, randomPos;
     public bool onPos = false, onTempel = false;
+    public SoundManager soundManager;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +41,7 @@ public class Dragdrop : MonoBehaviour
         {
             transform.position = detector.transform.position;
             onTempel = true;
+            soundManager.PlayJigsaw();          
         }
         else
         {
