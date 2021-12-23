@@ -581,6 +581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hintManager: {fileID: 1273551917}
   coinManager: {fileID: 797224695}
+  soundManager: {fileID: 0}
   popUp: {fileID: 963783143}
   reward_txt: {fileID: 1430385467}
 --- !u!1 &1257157351
@@ -1016,6 +1017,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1571061082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3902674053824139968, guid: 2c931c111f0256c48b9f033996d81c47,
+    type: 3}
+  m_PrefabInstance: {fileID: 1666573907}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a322fe039ecb5645a289a4687501f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1666573907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1696,5 +1709,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1970072628}
+    - target: {fileID: 7750141711822621112, guid: f61e552205fde044aacae7dd967ac6a2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1571061082}
+    - target: {fileID: 7750141711822621112, guid: f61e552205fde044aacae7dd967ac6a2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8414737083106639596, guid: f61e552205fde044aacae7dd967ac6a2,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8816cb85d9b6f154f9004cb12ed266e0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f61e552205fde044aacae7dd967ac6a2, type: 3}
