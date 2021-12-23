@@ -64,7 +64,6 @@ public class DailyManager : MonoBehaviour {
 		} else {
 
 			Debug.Log ("got the php information");
-
 		}
 
 		_timeData = www.text;

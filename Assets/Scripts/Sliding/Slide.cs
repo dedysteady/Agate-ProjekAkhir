@@ -18,6 +18,7 @@ public class Slide : MonoBehaviour
     public TimeManager timeManager;
     public CoinManager coinManager;
     public GameManager gameManager;
+    public SoundManager soundManager;
     public SingleLevelSliding singleLevelSliding;
 
     // Start is called before the first frame update
@@ -56,6 +57,7 @@ public class Slide : MonoBehaviour
                     tiles[tileIndex] = null;
                     emptySpaceIndex = tileIndex;
                 }
+                soundManager.PlayJigsaw();
             }
         }
     }
@@ -145,6 +147,7 @@ public class Slide : MonoBehaviour
             gameManager.TimeStarSliding();
             singleLevelSliding.UpdateStar();
             coinManager.UpdateCoin();
+            soundManager.PlayGameOver();
             coin.text = coinManager.coinText.text;
         }
     }

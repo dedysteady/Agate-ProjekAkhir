@@ -50,8 +50,8 @@ public class SpinManager : MonoBehaviour
                 }
             }
             if ((transform.rotation.eulerAngles.z > angle[0] && transform.rotation.eulerAngles.z < angle[1]) || (transform.rotation.eulerAngles.z < angle[15] && transform.rotation.eulerAngles.z > angle[16]))
-                {reward_txt.text = "200 Coin";   
-                coinManager.currentCoin += 200;
+                {reward_txt.text = "25 Coin";   
+                coinManager.currentCoin += 25;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
                 }  
 
@@ -62,8 +62,8 @@ public class SpinManager : MonoBehaviour
                 }
           
             if ((transform.rotation.eulerAngles.z > angle[2] && transform.rotation.eulerAngles.z < angle[3]) || (transform.rotation.eulerAngles.z < angle[13] && transform.rotation.eulerAngles.z > angle[14]))
-                {reward_txt.text = "1000 Coin";
-                coinManager.currentCoin += 1000;
+                {reward_txt.text = "50 Coin";
+                coinManager.currentCoin += 50;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
                 }
      
@@ -74,20 +74,20 @@ public class SpinManager : MonoBehaviour
                 }
 
             if ((transform.rotation.eulerAngles.z > angle[4] && transform.rotation.eulerAngles.z < angle[5]) || (transform.rotation.eulerAngles.z < angle[11] && transform.rotation.eulerAngles.z > angle[12]))
-                {reward_txt.text = "2000 Coin";                  
-                coinManager.currentCoin += 2000;
+                {reward_txt.text = "1000 Coin";                  
+                coinManager.currentCoin += 1000;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
                 }    
 
             if ((transform.rotation.eulerAngles.z > angle[5] && transform.rotation.eulerAngles.z < angle[6]) || (transform.rotation.eulerAngles.z < angle[10] && transform.rotation.eulerAngles.z > angle[11]))
-                {reward_txt.text = "5 Hint";
-                hintManager.currentHint += 5;
+                {reward_txt.text = "2 Hint";
+                hintManager.currentHint += 2;
                 PlayerPrefs.SetInt("Hint", hintManager.currentHint);
                 }
 
             if ((transform.rotation.eulerAngles.z > angle[6] && transform.rotation.eulerAngles.z < angle[7]) || (transform.rotation.eulerAngles.z < angle[9] && transform.rotation.eulerAngles.z > angle[10]))  
-                {reward_txt.text = "5000 Coin";
-                coinManager.currentCoin += 5000;
+                {reward_txt.text = "200 Coin";
+                coinManager.currentCoin += 200;
                 PlayerPrefs.SetInt("Coin", coinManager.currentCoin);
                 }
         
@@ -110,27 +110,27 @@ public class SpinManager : MonoBehaviour
 
         if (Random.value >= 0 && Random.value <= 0.05) 
         {
-            speed = 50;
+            speed = 42;
         }
      
         if (Random.value > 0.05 && Random.value <= 0.1) 
         { 
-            speed = 43;
+            speed = 41;
         }
      
         if (Random.value > 0.1 && Random.value <= 0.15) 
         { 
-            speed = 42;
+            speed = 50;
         }
 
         if (Random.value > 0.15 && Random.value <= 0.2) 
         {
-            speed = 41;
+            speed = 43;
         }
      
         if (Random.value > 0.2 && Random.value <= 0.6) 
         { 
-            speed = 44;
+            speed = 37;
         }
      
         if (Random.value > 0.6 && Random.value <= 0.7) 
@@ -140,23 +140,23 @@ public class SpinManager : MonoBehaviour
 
         if (Random.value > 0.7 && Random.value <= 0.9) 
         { 
-            speed = 37;
+            speed = 40;
         }
      
         if (Random.value > 0.9 && Random.value <= 1) 
         { 
-            speed = 40;
+            speed = 44;
         }
     }
 
 }
 
 
-// 37 = 200 coin
+// 37 = 25 coin
 // 39 = 1 hint
-// 40 = 1000 coin
+// 40 = 50 coin
 // 41 = 3 hint
-// 42 = 2000 coin
-// 43 = 5 hint
-// 50 = 5000 coin
+// 42 = 1000 coin
+// 43 = 2 hint
+// 50 = 200 coin
 // 44 = 100 coin
