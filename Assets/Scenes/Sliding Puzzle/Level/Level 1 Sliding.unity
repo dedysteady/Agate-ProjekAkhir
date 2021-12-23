@@ -646,6 +646,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!82 &266154097 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3902674053824139970, guid: 2c931c111f0256c48b9f033996d81c47,
+    type: 3}
+  m_PrefabInstance: {fileID: 1162236939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &281406970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,17 +4821,17 @@ PrefabInstance:
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 189000090}
+      objectReference: {fileID: 266154097}
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayClick
+      value: set_mute
       objectReference: {fileID: 0}
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4840,7 +4846,7 @@ PrefabInstance:
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4855,7 +4861,7 @@ PrefabInstance:
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: set_enabled
+      value: PlayClick
       objectReference: {fileID: 0}
     - target: {fileID: 1113954541131203213, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4871,16 +4877,16 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 189000090}
+      objectReference: {fileID: 2104167682}
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayClick
+      value: set_mute
       objectReference: {fileID: 0}
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4890,7 +4896,7 @@ PrefabInstance:
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4901,11 +4907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 2104167682}
+      objectReference: {fileID: 189000090}
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: set_mute
+      value: PlayClick
       objectReference: {fileID: 0}
     - target: {fileID: 6019498192216179026, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4922,10 +4928,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Select Stage Sliding
       objectReference: {fileID: 0}
+    - target: {fileID: 6054850443931976398, guid: 61f5511b3d8316e449487c796d91da78,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 189000090}
+    - target: {fileID: 6054850443931976398, guid: 61f5511b3d8316e449487c796d91da78,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayClick
+      objectReference: {fileID: 0}
     - target: {fileID: 6054850444064604190, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6054850444064604190, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -4936,16 +4952,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 189000090}
     - target: {fileID: 6054850444064604190, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
+      value: PlayClick
       objectReference: {fileID: 0}
     - target: {fileID: 6054850444064604190, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054850444064604190, guid: 61f5511b3d8316e449487c796d91da78,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054850444064604190, guid: 61f5511b3d8316e449487c796d91da78,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6054850444235136449, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}
@@ -5086,6 +5112,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Level 1 Sliding
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054850444635920715, guid: 61f5511b3d8316e449487c796d91da78,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 189000090}
+    - target: {fileID: 6054850444635920715, guid: 61f5511b3d8316e449487c796d91da78,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayClick
       objectReference: {fileID: 0}
     - target: {fileID: 6054850445184107929, guid: 61f5511b3d8316e449487c796d91da78,
         type: 3}

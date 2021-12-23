@@ -8,7 +8,7 @@ public class SpinManager : MonoBehaviour
 {
     public HintManager hintManager;
     public CoinManager coinManager;
-    public SoundManager soundManager;
+    public GameObject soundManager;
     public GameObject popUp;
     int coin, hint;
     
@@ -39,7 +39,6 @@ public class SpinManager : MonoBehaviour
         {
             transform.Rotate(0, 0, speed);
             speed -= .1f;
-            soundManager.PlaySpin();
         }
         if (spin && speed <= 0)//end of speed
         {
@@ -47,7 +46,7 @@ public class SpinManager : MonoBehaviour
             {
                 if (transform.rotation.eulerAngles.z == angle[i])
                 {
-                    transform.Rotate(0, 0, -325);
+                    transform.Rotate(0, 0, 150);
                     break;
                 }
             }
@@ -102,6 +101,7 @@ public class SpinManager : MonoBehaviour
             speed = 0;
             spin = false;
             popUp.SetActive(true);
+            soundManager.SetActive(false);
         }
     }
 

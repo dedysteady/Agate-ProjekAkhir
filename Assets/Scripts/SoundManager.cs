@@ -9,7 +9,6 @@ public class SoundManager : MonoBehaviour
     public AudioClip gameOver;
     public AudioClip getReward;
     public AudioClip clickButton;
-    public AudioClip spin;
 
     private AudioSource player;
 
@@ -42,10 +41,5 @@ public class SoundManager : MonoBehaviour
     public void PlayGetReward()
     {
         player.PlayOneShot(getReward);
-    }
-
-    public void PlaySpin()
-    {
-        player.PlayOneShot(spin);
     }
 }
