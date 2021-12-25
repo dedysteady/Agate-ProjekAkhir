@@ -4,7 +4,11 @@ AudioImporter:
   externalObjects: {}
   serializedVersion: 6
   defaultSettings:
+<<<<<<< HEAD
     loadType: 0
+=======
+    loadType: 1
+>>>>>>> 532873c179e394b686a20685b189a4f8ac0e4e42
     sampleRateSetting: 0
     sampleRateOverride: 44100
     compressionFormat: 1

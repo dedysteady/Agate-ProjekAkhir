@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
@@ -7,6 +8,23 @@
     "com.unity.test-framework": "1.1.14",
     "com.unity.textmeshpro": "2.1.1",
     "com.unity.timeline": "1.2.15",
+=======
+    "com.unity.2d.animation": "3.2.15",
+    "com.unity.2d.common": "2.0.2",
+    "com.unity.2d.path": "2.0.6",
+    "com.unity.2d.pixel-perfect": "2.0.4",
+    "com.unity.2d.psdimporter": "2.1.10",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.spriteshape": "3.0.18",
+    "com.unity.2d.tilemap": "1.0.0",
+    "com.unity.collab-proxy": "1.2.16",
+    "com.unity.ide.rider": "2.0.7",
+    "com.unity.ide.visualstudio": "2.0.12",
+    "com.unity.ide.vscode": "1.2.4",
+    "com.unity.test-framework": "1.1.30",
+    "com.unity.textmeshpro": "2.1.6",
+    "com.unity.timeline": "1.2.18",
+>>>>>>> 532873c179e394b686a20685b189a4f8ac0e4e42
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

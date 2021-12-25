@@ -48,6 +48,7 @@ The following packages were updated:
   com.unity.2d.animation from version 5.0.1 to 5.0.8
   com.unity.2d.psdimporter from version 4.0.1 to 4.1.1
   com.unity.2d.spriteshape from version 5.0.1 to 5.1.5
+<<<<<<< HEAD
 
 === Fri Dec 24 08:49:29 2021
 
@@ -70,3 +71,5 @@ The following packages were removed:
   com.unity.2d.spriteshape@3.0.18
   com.unity.2d.tilemap@1.0.0
   com.unity.ide.visualstudio@2.0.12
+=======
+>>>>>>> 532873c179e394b686a20685b189a4f8ac0e4e42
